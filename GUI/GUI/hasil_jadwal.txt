@@ -1,0 +1,12 @@
+=== Jadwal Servis Bengkel ===
+Udon       | B 8384 TEE | Rabu       | 15:00 - 20:00
+Beduk      | B 533 TET  | Rabu       | 10:00 - 15:00
+Beduk      | B 533 TET  | Senin      | 17:00 - 19:00
+Bolot      | B 2533 RAW | Senin      | 09:00 - 11:00
+Bolot      | B 2533 RAW | Selasa     | 19:00 - 21:00
+wegegwegw  | 2312313    | Kamis      | 09:00 - 14:00
+wegegwegw  | 2312313    | Selasa     | 11:00 - 14:00
+KOnwrol    | 1212411313 | Senin      | 12:00 - 17:00
+KOnwrol    | 1212411313 | Jumat      | 15:00 - 18:00
+Fami2411   | 12412414   | Selasa     | 14:00 - 19:00
+
