@@ -4,7 +4,7 @@ This project was aimed to create an automatic Scheduler for Repair Shop using si
 
 The goal of this Project was not only to understanding the mechanism under genetic Algorithm and its use towards something useful like automatic scheduler for car repair scheduling, but also to completed lecturer's Final Tasks..
 
-version : 0.0.0.1
+version : 1.0.1
 
 ## Struktur Direktori
 ```text
