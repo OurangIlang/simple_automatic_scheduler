@@ -24,14 +24,14 @@ public MyFrame() {
         
         this.getContentPane().setBackground(new java.awt.Color(128, 128, 128));
 
-//Main panelnya ini kocag
+//Main panel
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         mainPanel.setOpaque(true);
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30)); // padding        
 
-//Panel kedua kebawah
+//Panel kedua 
         JPanel Panel2 = new JPanel();
         Panel2.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5 ));
         Panel2.setOpaque(false);
@@ -42,7 +42,7 @@ public MyFrame() {
         mainPanel.add(Panel2);
         mainPanel.add(Box.createVerticalStrut(1));
 
-//Panel ketiga kebawah
+//Panel ketiga 
         JPanel Panel3 = new JPanel();
         Panel3.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10 ,5));        
         JLabel label3 = new JLabel("No.Telepon"); // nanti ini pas di run jadi Plat nomor
@@ -53,7 +53,7 @@ public MyFrame() {
         mainPanel.add(Box.createVerticalStrut(1));
 
 
-//Panel keempat kebawah
+//Panel keempat 
         JPanel Panel4 = new JPanel();
         Panel4.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5));
         JLabel labelplat = new JLabel("Plat Nomor Kendaraan"); 
@@ -83,7 +83,7 @@ public MyFrame() {
 
 mainPanel.add(Panel4a);
 
-//Panel kelima kebawah
+//Panel kelima 
         JPanel Panel5 = new JPanel();
         Panel5.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 10, 5));
         JLabel labeltanggal = new JLabel("Tanggal terakhir servis"); 
@@ -94,7 +94,7 @@ mainPanel.add(Panel4a);
         Panel5.add(dateSpinner);
         mainPanel.add(Panel5);       
 
-//Panel keenam kebawah (panel tombol)
+//Panel keenam (panel tombol)
 JPanel panelButton = new JPanel();
 panelButton.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 0));
 
@@ -172,7 +172,7 @@ hasilGAButton.addActionListener(e -> {
     try {
         // Jalankan GA (pastikan GAJadwalBengkel.main() tidak exit program)
         GAJadwalBengkel.main(new String[0]);
-        // Tampilkan hasil ke user (misal, tampilkan isi file hasil_jadwal.txt)
+        // Tampilkan hasil ke user (misal tampilkan isi file hasil_jadwal.txt)
         java.nio.file.Path hasilPath = java.nio.file.Paths.get("hasil_jadwal.txt");
         String hasil = java.nio.file.Files.readString(hasilPath);
         javax.swing.JOptionPane.showMessageDialog(this, hasil, "Hasil Jadwal GA", javax.swing.JOptionPane.INFORMATION_MESSAGE);
